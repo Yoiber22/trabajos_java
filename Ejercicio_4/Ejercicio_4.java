@@ -3,9 +3,14 @@ import java.util.Scanner;
 
 
 public class Ejercicio_4 {
-    public static void main(String[] args) {
-      Scanner input = new Scanner(System.in);
 
+  static Scanner input = new Scanner(System.in);
+    public static void main(String[] args) {
+
+      menu();
+    }
+
+    public static void menu(){
       while (true){
         System.out.println("Que progaram desea ejecutar?");
         System.out.println("1. Dias perdidos");
@@ -36,14 +41,13 @@ public class Ejercicio_4 {
 
         }
       }
-
       input.close();
+      
       
 
     }
 
     public static void dias_perdidos(){
-      Scanner input = new Scanner(System.in);
 
       // MSP - Días perdidos.
       // -Escriba un programa para calcular la reducción en la vida útil de un fumador. 
@@ -79,7 +83,6 @@ public class Ejercicio_4 {
     
     
     public static void alquiler_autos(){
-      Scanner input = new Scanner(System.in);
 
       System.out.println("\nProgarama Alquiler de Autos");
     
