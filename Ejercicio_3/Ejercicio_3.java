@@ -4,8 +4,8 @@ import java.util.Scanner;
 
 public class Ejercicio_3 {
     
+    static Scanner input = new Scanner(System.in);
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
         
     // Crear un programa que solicite un nombre, edad y altura. Mostrar en pantalla.
         
@@ -45,8 +45,6 @@ public class Ejercicio_3 {
         int n2_resto = input.nextInt();
         int resultado_resto = sumar(n1,n2);
         System.out.println("El resto de "+n1_resto+" / "+n2_resto+" = "+resultado_resto);
-
-        input.close();
         
     }   
 
@@ -72,7 +70,6 @@ public class Ejercicio_3 {
 
     
     public static void datos_personales(){
-        Scanner input = new Scanner(System.in);
 
         System.out.println("Datos Personales\n");
 
@@ -85,12 +82,11 @@ public class Ejercicio_3 {
         System.out.print("Ingrese Altura: ");
         float altura = input.nextFloat();
 
-        System.out.println("\nInformacion deL Usuario");
+        System.out.println("\nInformacion del Usuario");
         System.out.println("Nombre: "+nombre);
         System.out.println("Edad  : "+edad);
         System.out.println("Altura: "+altura);
 
-        input.close();
     }
 
 
