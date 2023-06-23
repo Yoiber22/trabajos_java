@@ -57,10 +57,10 @@ public class Ejercicio_4 {
 
       System.out.println("\nPrograma Dias Perdidos");
       
-      System.out.print("Ingrese la cantidad de cigarrillos que fuma por dia: ");
-      int cigarrillos_dia = input.nextInt();
-
       try{
+        System.out.print("Ingrese la cantidad de cigarrillos que fuma por dia: ");
+        int cigarrillos_dia = input.nextInt();
+
         System.out.print("Ingrese la cantidad de años que tiene fumando: ");
         int anios_fumando = input.nextInt();
         
